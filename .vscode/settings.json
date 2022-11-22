@@ -1,0 +1,18 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.formatting.provider": "black",
+    "[git-commit]": {
+        "editor.rulers": [
+            50
+        ]
+    },
+    "[python]": {
+        "editor.rulers": [
+            79,
+            120
+        ],
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+}
